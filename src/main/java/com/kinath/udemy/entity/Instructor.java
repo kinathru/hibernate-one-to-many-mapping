@@ -116,6 +116,7 @@ public class Instructor
             this.courses = new ArrayList<Course>();
         }
 
+        course.setInstructor( this );
         this.courses.add( course );
     }
 
